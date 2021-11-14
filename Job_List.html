@@ -11,11 +11,12 @@
 
     <title>Job List - JobFinder</title>
 
-
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <!--== Bootstrap CSS ==-->
-    <link href="bootstrap.min.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
     <!--== Main Style CSS ==-->
-    <link href="style.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
 
 </head>
 
@@ -32,7 +33,8 @@
                         <div class="col-4 col-sm-6 col-lg-2">
                             <div class="header-logo-area">
                                 <a href="home.html">
-                                    <img class="logo-main" src="JobFinder_Logo.png" alt="Logo" width="175" height="65">
+                                    <img class="logo-main" src="icons/JobFinder_Logo.png" alt="Logo" width="175"
+                                        height="65">
 
                                 </a>
                             </div>
@@ -62,7 +64,7 @@
 
         <main class="main-content">
             <!--== Start Page Title Area ==-->
-            <section class="page-title-area bg-img" data-bg-img="assets/img/photos/bg2.jpg">
+            <section class="page-title-area bg-img" style="background-image: url('img/back.png');">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-lg-12 m-auto">
@@ -86,18 +88,14 @@
 
                             <div class="widget-item">
                                 <div class="widget-body">
-                                    <div class="widget-search-box">
-                                        <form action="#" method="post">
-                                            <div class="form-input-item">
-                                                <label for="search2" class="sr-only"></label>
-                                                <input type="text" id="search2"
-                                                    placeholder="Job title,Keywords or company names">
-                                                <button type="submit" class="btn-src">
-                                                    <i class="icofont-search"></i>
-                                                </button>
-                                            </div>
-                                        </form>
+                                    <div class="search-container">
+                                        <input type="text" name="search"
+                                            placeholder="Job title,Keywords or company names..." class="search-input">
+                                        <a href="#" class="search-btn">
+                                            <i class="fas fa-search"></i>
+                                        </a>
                                     </div>
+
                                 </div>
                             </div>
                             <div class="widget-item">
@@ -108,12 +106,19 @@
                                 <div class="widget-body">
                                     <div class="widget-nav">
                                         <ul>
-                                            <li><a href="x.html">Information Technology</a></li>
-                                            <li><a href="x.html">Marketing</a></li>
-                                            <li><a href="x.html">Financial carrer</a></li>
-                                            <li><a href="x.html">Construction</a></li>
-                                            <li><a href="x.html">Employer</a></li>
-                                            <li><a href="x.html">Cordinator</a></li>
+                                            <li><a href="x.html"> <img class="quote-icon" src="icons/pc.png" alt="Icon"
+                                                        width="80" height="10">Information Technology</a>
+                                            </li>
+                                            <li><a href="x.html"> <img class="quote-icon" src="icons/marketing.png"
+                                                        alt="Icon" width="80" height="10">Marketing</a></li>
+                                            <li><a href="x.html"> <img class="quote-icon" src="icons/cash.png"
+                                                        alt="Icon" width="80" height="10">Financial carrer</a></li>
+                                            <li><a href="x.html"> <img class="quote-icon" src="icons/constraction.png"
+                                                        alt="Icon" width="80" height="10">Construction</a></li>
+                                            <li><a href="x.html"> <img class="quote-icon" src="icons/employer.png"
+                                                        alt="Icon" width="80" height="10">Employer</a></li>
+                                            <li><a href="x.html"> <img class="quote-icon" src="icons/cordinator.png"
+                                                        alt="Icon" width="80" height="10">Cordinator</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -129,8 +134,8 @@
                                                 <div class="col-12">
 
                                                     <div class="client-info">
-                                                        <img class="quote-icon" src="assets/img/icons/quote-icon.png"
-                                                            alt="Icon" width="195" height="159">
+                                                        <img class="quote-icon" src="icons/Networking.png" alt="Icon"
+                                                            width="80" height="10">
                                                         <h4 class="name">Networking Engineer
 
                                                         </h4>
@@ -141,8 +146,8 @@
 
                                                     </div>
                                                     <div class="client-info">
-                                                        <img class="quote-icon" src="assets/img/icons/quote-icon.png"
-                                                            alt="Icon" width="195" height="159">
+                                                        <img class="quote-icon" src="icons/frontend.png" alt="Icon"
+                                                            width="52" height="64">
                                                         <h4 class="name">Front end Developer
                                                         </h4>
                                                         <h6 class="designation2">Freelance</h6>
@@ -152,8 +157,8 @@
 
                                                     </div>
                                                     <div class="client-info">
-                                                        <img class="quote-icon" src="assets/img/icons/quote-icon.png"
-                                                            alt="Icon" width="195" height="159">
+                                                        <img class="quote-icon" src="icons/UX.png" alt="Icon" width="54"
+                                                            height="90">
                                                         <h4 class="name">UX Designer
                                                         </h4>
                                                         <h6 class="designation3">Full Time</h6>
@@ -191,7 +196,7 @@
                     <div class="col-sm-4 col-md-3 item">
 
                         <a href="home.html">
-                            <img class="logo-main" src="JobFinder_Logo.png" alt="Logo" width="175" height="65">
+                            <img class="logo-main" src="icons/JobFinder_Logo.png" alt="Logo" width="175" height="65">
 
                         </a>
 
