@@ -888,6 +888,85 @@ table p {
   font-size: 24px;
 }
 
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+table {
+  display: table;
+  width: 100%;
+}
+
+th {
+  text-transform: uppercase;
+  background: #e4e4e4;
+  font-weight: 500;
+}
+
+th,
+td {
+  padding: 25px 15px;
+  text-align: start;
+  vertical-align: middle;
+}
+
+td {
+  border-bottom: 1px solid #ddd;
+}
+td,
+p {
+  color: darkslategrey;
+}
+.status {
+  background: transparent;
+  color: black;
+}
+.status .designation1 {
+  color: greenyellow;
+}
+
+.status .designation2 {
+  color: blue;
+}
+
+.status .designation3 {
+  color: red;
+}
+.inline-block {
+  display: inline-block;
+}
 /*-------- Error Style Css --------*/
 .page-not-found-area {
   padding: 128px 0 202px;
@@ -4260,7 +4339,7 @@ table p {
 -----------------------------------------------------------------------
 */
 .testimonial-area.testimonial-default-area {
-  background-color: #c0dfe8;
+  background-color: transparent;
   padding: 102px 0 123px;
   position: relative;
 }
@@ -5062,7 +5141,7 @@ text-shadow: 2px 2px 3px rgba(255,255,255,0.5);*/
 }
 
 .widget-testimonial-area .testimonial-content {
-  background-color: #171b23;
+  background-color: transparent;
   padding: 52px 20px 49px 20px;
   text-align: center;
 }
