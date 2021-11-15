@@ -937,11 +937,14 @@ th {
 
 th,
 td {
-  padding: 25px 15px;
+  padding: 25px;
   text-align: start;
   vertical-align: middle;
 }
-
+td img {
+  display: inline-block;
+  margin-left: 10px;
+}
 td {
   border-bottom: 1px solid #ddd;
 }
@@ -955,14 +958,20 @@ p {
 }
 .status .designation1 {
   color: greenyellow;
+  margin-left: 16px;
+  font-size: 17px;
 }
 
 .status .designation2 {
   color: blue;
+  margin-left: 16px;
+  font-size: 17px;
 }
 
 .status .designation3 {
   color: red;
+  margin-left: 16px;
+  font-size: 17px;
 }
 .inline-block {
   display: inline-block;
@@ -4955,21 +4964,21 @@ p {
 }
 
 .service-details-area {
-  padding: 140px 0 178px;
+  padding: 35px 0 178px;
 }
 @media only screen and (max-width: 1199px) {
   .service-details-area {
-    padding: 90px 0 60px;
+    padding: 35px 0 60px;
   }
 }
 @media only screen and (max-width: 991px) {
   .service-details-area {
-    padding: 90px 0 115px;
+    padding: 35px 0 115px;
   }
 }
 @media only screen and (max-width: 767px) {
   .service-details-area {
-    padding: 90px 0 32px;
+    padding: 35px 0 32px;
   }
 }
 @media only screen and (max-width: 575px) {
@@ -5179,16 +5188,19 @@ text-shadow: 2px 2px 3px rgba(255,255,255,0.5);*/
   color: #0055ff;
   font-weight: 500;
   font-size: 17px;
+  font-style: bold;
 }
 .widget-testimonial-area .testimonial-content .client-info .designation2 {
   color: #ff0000;
   font-weight: 500;
   font-size: 17px;
+  font-style: bold;
 }
 .widget-testimonial-area .testimonial-content .client-info .designation3 {
   color: #2bbc13;
   font-weight: 500;
   font-size: 17px;
+  font-style: bold;
 }
 @media only screen and (max-width: 575px) {
   .widget-testimonial-area .testimonial-content .client-info .designation {
