@@ -25,7 +25,7 @@
 body {
   color: #171b23;
   font-size: 1rem;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   line-height: 1.75;
   margin: 0;
@@ -96,31 +96,6 @@ p:last-child {
   outline: none !important;
 }
 
-::-moz-selection {
-  background: #0055ff;
-  color: #fff;
-  text-shadow: none;
-}
-
-::selection {
-  background: #0055ff;
-  color: #fff;
-  text-shadow: none;
-}
-
-::-moz-selection {
-  background: #0055ff;
-  /* Firefox */
-  color: #fff;
-  text-shadow: none;
-}
-
-::-webkit-selection {
-  background: #0055ff;
-  /* Safari */
-  color: #fff;
-  text-shadow: none;
-}
 
 img {
   height: auto;
@@ -171,19 +146,6 @@ table p {
   padding-left: 15px;
   padding-right: 15px;
 }
-@media only screen and (min-width: 1200px) {
-  .container {
-    max-width: 1200px;
-  }
-}
-@media only screen and (max-width: 1199px) {
-  .container {
-    max-width: 100%;
-  }
-}
-.container.max-width-1700 {
-  max-width: 1730px;
-}
 
 .row {
   margin-right: -15px;
@@ -197,16 +159,7 @@ table p {
 .section-title {
   margin-bottom: 73px;
 }
-@media only screen and (max-width: 1199px) {
-  .section-title {
-    margin-bottom: 60px;
-  }
-}
-@media only screen and (max-width: 767px) {
-  .section-title {
-    margin-bottom: 40px;
-  }
-}
+
 .section-title .subtitle {
   background-color: #f0f0f0;
   font-weight: 700;
@@ -216,44 +169,13 @@ table p {
   padding: 14.5px 43.74px;
   text-transform: uppercase;
 }
-@media only screen and (max-width: 1199px) {
-  .section-title .subtitle {
-    font-size: 14px;
-    margin-bottom: 18px;
-    padding: 10px 20px;
-  }
-}
-@media only screen and (max-width: 991px) {
-  .section-title .subtitle {
-    font-size: 12px;
-  }
-}
 .section-title .title {
   font-weight: 700;
   font-size: 52px;
   line-height: 1.057;
   margin-bottom: 13px;
 }
-@media only screen and (max-width: 1199px) {
-  .section-title .title {
-    font-size: 46px;
-  }
-}
-@media only screen and (max-width: 991px) {
-  .section-title .title {
-    font-size: 36px;
-  }
-}
-@media only screen and (max-width: 767px) {
-  .section-title .title {
-    font-size: 34px;
-  }
-}
-@media only screen and (max-width: 575px) {
-  .section-title .title {
-    font-size: 30px;
-  }
-}
+
 .section-title p {
   color: #171b23;
 }
@@ -343,72 +265,6 @@ table p {
 .row-gutter-0 [class*="col-"] {
   margin: 0;
   padding: 0;
-}
-
-@media only screen and (min-width: 1200px) {
-  .row-gutter-10 {
-    margin-right: -5px;
-    margin-left: -5px;
-  }
-  .row-gutter-10 [class*="col"] {
-    padding-left: 5px;
-    padding-right: 5px;
-  }
-}
-
-@media only screen and (min-width: 1200px) {
-  .row-gutter-80 {
-    margin-right: -40px;
-    margin-left: -40px;
-  }
-  .row-gutter-80 [class*="col"] {
-    padding-left: 40px;
-    padding-right: 40px;
-  }
-}
-
-@media only screen and (min-width: 1200px) {
-  .row-gutter-60 {
-    margin-right: -30px;
-    margin-left: -30px;
-  }
-  .row-gutter-60 [class*="col"] {
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-}
-
-@media only screen and (min-width: 1200px) {
-  .row-gutter-70 {
-    margin-right: -35px;
-    margin-left: -35px;
-  }
-  .row-gutter-70 [class*="col"] {
-    padding-left: 35px;
-    padding-right: 35px;
-  }
-}
-
-@media only screen and (min-width: 1200px) {
-  .row-gutter-20 {
-    margin-right: -10px;
-    margin-left: -10px;
-  }
-  .row-gutter-20 [class*="col"] {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-}
-
-@media only screen and (min-width: 1200px) {
-  .row-gutter-29 {
-    margin-right: -14.5px;
-    margin-left: -14.5px;
-  }
-  .row-gutter-29 [class*="col"] {
-    padding-left: 14.5px;
-    padding-right: 14.5px;
-  }
 }
 
 .wrapper {
@@ -769,26 +625,7 @@ table p {
   position: relative;
   z-index: 1;
 }
-@media only screen and (max-width: 1199px) {
-  .page-title-area .page-title-content {
-    padding: 155px;
-  }
-}
-@media only screen and (max-width: 991px) {
-  .page-title-area .page-title-content {
-    padding: 120px;
-  }
-}
-@media only screen and (max-width: 767px) {
-  .page-title-area .page-title-content {
-    padding: 95px;
-  }
-}
-@media only screen and (max-width: 479.98px) {
-  .page-title-area .page-title-content {
-    padding: 85px;
-  }
-}
+
 .page-title-area .page-title-content .title {
   bottom: -17px;
   color: #fff;
@@ -803,29 +640,7 @@ table p {
   transform: translate(-50%, 0);
   text-transform: uppercase;
 }
-@media only screen and (max-width: 1199px) {
-  .page-title-area .page-title-content .title {
-    font-size: 100px;
-  }
-}
-@media only screen and (max-width: 991px) {
-  .page-title-area .page-title-content .title {
-    bottom: -10px;
-    font-size: 75px;
-  }
-}
-@media only screen and (max-width: 767px) {
-  .page-title-area .page-title-content .title {
-    bottom: -6px;
-    font-size: 45px;
-  }
-}
-@media only screen and (max-width: 479.98px) {
-  .page-title-area .page-title-content .title {
-    bottom: -5px;
-    font-size: 35px;
-  }
-}
+
 .page-title-area .bg-overlay3 {
   background-color: #041024;
   height: 100%;
