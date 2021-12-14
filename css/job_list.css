@@ -32,8 +32,7 @@
   margin-bottom: 13px;
   padding: 20px 144px;
   width: 25%;
-  border-radius: 10px;
-  border: 1px solid #ccc;
+
   transition: box-shadow 0.3s;
   /*transition: all 0.4s ease-in-out;
   -webkit-transition: all 0.4s ease-in-out;
@@ -67,17 +66,22 @@
     padding: 15px 24px;
   }
 }
-.wrapper :hover {
-  /*background-color: #560bad;*/
-  color: #fff;
+.wrapper > :hover {
+  /* background-color: #560bad;
+  color: #fff;*/
+  border-radius: 10px;
+  border: 1px solid #ccc;
 
   box-shadow: 0 0 15px rgba(33, 33, 33, 0.2);
 }
-/*.wrapper a.active {
+
+.wrapper a.active {
   background-color: #560bad;
   color: #fff;
-}*/
+}
+
 /*------------------------------------------------*/
+
 * {
   user-select: none;
 }
