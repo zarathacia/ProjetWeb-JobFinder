@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 body{
   font-family: varela round,montserrat,quicksand,sans-serif;
+=======
+
+
+body{
+  font-family: calibri;
+>>>>>>> f1b4a34029bc14d9b6f89dde77c84bdc6e280012
 }
 .navigation {
   height: 70px;
@@ -60,17 +67,28 @@ li a:hover{
     border:2px solid white;
     color: white ;
     background-color:transparent;
+<<<<<<< HEAD
 	margin-top: 200px;
 	width: 150px;
 	height: 50px;
 	margin-right: 80%;
+=======
+  margin-top: 200px;
+  width: 150px;
+  height: 50px;
+  margin-right: 80%;
+>>>>>>> f1b4a34029bc14d9b6f89dde77c84bdc6e280012
     
 }
 .welcome{
     color: #fff;
     height: 300px;
     width:100%;
+<<<<<<< HEAD
     background-image: url(../img/background_register.png);
+=======
+    background-image: url(../img/home-background.png);
+>>>>>>> f1b4a34029bc14d9b6f89dde77c84bdc6e280012
     text-align: center;
     color: #fff;
     background-attachment: scroll;
@@ -82,7 +100,11 @@ li a:hover{
     -o-background-size: cover;
 }
 .image-profil{
+<<<<<<< HEAD
 	overflow: hidden;
+=======
+  overflow: hidden;
+>>>>>>> f1b4a34029bc14d9b6f89dde77c84bdc6e280012
   -webkit-border-radius:30%;
   -moz-border-radius:50%;
   border-radius:50%;
@@ -93,6 +115,7 @@ li a:hover{
 
   }
   .details h1{
+<<<<<<< HEAD
 	  font-size: 15px;
 	  font-family:Arial, Helvetica, sans-serif;
 	  margin-top: 40px;
@@ -106,6 +129,21 @@ li a:hover{
 	margin-top: 10px;
 	margin-right: 1%;
 	color: midnightblue;
+=======
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+    margin-right: 1%;
+    color: lightslategray;
+
+  }
+  .details h2{
+  font-size: 15px;
+  font-family:Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+  margin-right: 1%;
+  color: midnightblue;
+>>>>>>> f1b4a34029bc14d9b6f89dde77c84bdc6e280012
 
 }
 .icon-profil1{
@@ -137,10 +175,17 @@ li a:hover{
 .title p{
 margin-left: 15%;
 margin-top: -870px;
+<<<<<<< HEAD
 
 color: #000;
 font-size: 30px;
 font-style: italic;
+=======
+  font-family: calibri;
+  font-weight:bold;
+  color:#1d1c1c;
+  font-size:30px;
+>>>>>>> f1b4a34029bc14d9b6f89dde77c84bdc6e280012
 }
 .para p{
   margin-left: 15%;
@@ -189,7 +234,10 @@ th {
   height: 50px;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> f1b4a34029bc14d9b6f89dde77c84bdc6e280012
 .item3 {
   padding: 10px;
   display: inline-block;
@@ -433,13 +481,21 @@ box-shadow:2px 2px 18px rgba(0,0,0,0.3);
                 .os-percentages li {
                   width: 75px;
                   border-left: 1px solid #394264;
+<<<<<<< HEAD
                   text-align: center;					
+=======
+                  text-align: center;         
+>>>>>>> f1b4a34029bc14d9b6f89dde77c84bdc6e280012
                   background: #50597b;
                 }
                   .os {
                     margin: 0;
                     padding: 10px 0 5px;
+<<<<<<< HEAD
                     font-size: 15px;		
+=======
+                    font-size: 15px;    
+>>>>>>> f1b4a34029bc14d9b6f89dde77c84bdc6e280012
                   }
 
                   .os-percentage {
@@ -626,13 +682,21 @@ box-shadow:2px 2px 18px rgba(0,0,0,0.3);
           .os-percentages li {
             width: 75px;
             border-left: 1px solid #394264;
+<<<<<<< HEAD
             text-align: center;					
+=======
+            text-align: center;         
+>>>>>>> f1b4a34029bc14d9b6f89dde77c84bdc6e280012
             background: #50597b;
           }
             .os {
               margin: 0;
               padding: 10px 0 5px;
+<<<<<<< HEAD
               font-size: 15px;		
+=======
+              font-size: 15px;    
+>>>>>>> f1b4a34029bc14d9b6f89dde77c84bdc6e280012
             }
 
             .os-percentage {
@@ -818,13 +882,21 @@ box-shadow:2px 2px 18px rgba(0,0,0,0.3);
               .os-percentages2 li {
                 width: 75px;
                 border-left: 1px solid #394264;
+<<<<<<< HEAD
                 text-align: center;					
+=======
+                text-align: center;         
+>>>>>>> f1b4a34029bc14d9b6f89dde77c84bdc6e280012
                 background: #50597b;
               }
                 .os2 {
                   margin: 0;
                   padding: 10px 0 5px;
+<<<<<<< HEAD
                   font-size: 15px;		
+=======
+                  font-size: 15px;    
+>>>>>>> f1b4a34029bc14d9b6f89dde77c84bdc6e280012
                 }
                 .os-percentage2 {
                   margin: 0;
@@ -973,4 +1045,95 @@ box-shadow:2px 2px 18px rgba(0,0,0,0.3);
           font-weight:bold;
           color:#1d1c1c;
           font-size:30px;
+<<<<<<< HEAD
+=======
+          }
+
+          footer p{
+            font-family: calibri;
+          }
+          footer p:nth-child(1){
+            font-size: 30px;
+            font-weight:bold;
+            color:white;
+            line-height:10px;
+          }
+          footer p:nth-child(2){
+            font-size: 16px;
+            color:#7e7d7d;
+            width:600px;
+            text-align: center;
+          }
+          footer{
+            height:300px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            background-image: url(../img/home-background.png);
+          }
+          .social-icons a{
+            width:40px;
+            height:40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color:#e6e3e3;
+            margin:20px 10px;
+            border-radius:50%;
+          }
+          .social-icons{
+            display: flex;
+            
+          }
+          .social-icons i,.social i{
+            color:#000000;
+          }
+          .social-icons a:hover{
+            background-color:#000000;
+            box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+            transition:all ease 0.5s;
+          }
+          .social-icons a:hover i,
+          .social a:hover i{
+            color:#FFFFFF;
+            transition:all ease 0.5s;
+          }
+           
+          .copyright{
+            color:#565555;
+            font-size: 12px;
+            position: absolute;
+            left:50%;
+            bottom:10px;
+            transform: translateX(-50%);
+          }
+          .social{
+            position: fixed;
+            top:50%;
+            right:0px;
+            transform:translateY(-50%);
+          }
+          .social a{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width:50px;
+            height:50px;
+            margin:0px;
+            padding: 0px;
+            line-height:0px;
+            background-color:#FFFFFF;
+            border:1px solid #CBCBCB;
+            box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+          }
+          .social a:hover{
+            background-color:#000000;
+            transition:all ease 0.5s;
+          }
+          .social i{
+            font-size:20px;
+            color:#2B2B2B;
+>>>>>>> f1b4a34029bc14d9b6f89dde77c84bdc6e280012
           }
