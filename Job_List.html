@@ -12,210 +12,427 @@
     <title>Job List - JobFinder</title>
 
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
-    <!--== Bootstrap CSS ==-->
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <!--== Bootstrap CSS ==--
+    <link href="css/bootstrap.min.css" rel="stylesheet" />-->
     <!--== Main Style CSS ==-->
     <link href="css/style.css" rel="stylesheet" />
+    <link href="css/job_list.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/navigation.css">
+    <script type="text/javascript" src="js/particles.js"></script>
 
 </head>
 
 <body>
+    <section class="navigation">
+        <div class="nav-container">
+            <div class="brand">
+                <div class="header-logo-area">
+                    <a href="home.html">
+                        <img class="logo-main" src="icons/JobFinder_Logo.png" alt="Logo" width="175" height="65">
 
-        <!--== Start Header==-->
-        <header class="header-wrapper">
-            <div class="header-area header-default sticky-header">
-                <div class="container">
-                    <div class="row row-gutter-0 align-items-center">
-                        <div class="col-4 col-sm-6 col-lg-2">
-                            <div class="header-logo-area">
-                                <a href="home.html">
-                                    <img class="logo-main" src="icons/JobFinder_Logo.png" alt="Logo" width="175"
-                                        height="65">
-
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-lg-8 d-none d-lg-block">
-                            <div class="header-navigation-area">
-                                <ul class="main-menu nav position-relative">
-                                    <li><a href="home.html">Home</a></li>
-                                    <li><a href="Job_List.html">Jobs Available</a></li>
-
-                                    <li><a href="ContactUs.html">Contact us</a>
-
-                                    <li><a href="Login.html">Login</a>
-
-                                    </li>
-
-                                    <li><a href="register.html">Register</a></li>
-                                </ul>
-                            </div>
-                        </div>
-
-                    </div>
+                    </a>
                 </div>
             </div>
-        </header>
-        <!--== End Header==-->
+            <nav>
+                <ul class="nav-list">
+                    <li>
+                        <a href="home.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="Job_List.html">Jobs Available</a>
+                    </li>
+                    <li>
+                        <a href="Contact_us.html">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="register.html">Register</a>
+                    </li>
+                    <li>
+                        <a href="login.html">Login</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <!--== Start Header==
+    <header class="header-wrapper">
+        <div class="header-area header-default sticky-header">
+            <div class="container">
+                <div class="row row-gutter-0 align-items-center">
+                    <div class="col-4 col-sm-6 col-lg-2">
+                        <div class="header-logo-area">
+                            <a href="home.html">
+                                <img class="logo-main" src="icons/JobFinder_Logo.png" alt="Logo" width="175"
+                                    height="65">
 
-        <main class="main-content">
-            <!--== Start Page Title Area ==-->
-            <section class="page-title-area bg-img" style="background-image: url('img/back.png');">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-lg-12 m-auto">
-                            <div class="page-title-content text-center">
-                                <h2 class="title">Job Categories</h2>
-                            </div>
+                            </a>
                         </div>
                     </div>
+                    <div class="col-lg-8 d-none d-lg-block">
+                        <div class="header-navigation-area">
+                            <ul class="main-menu nav position-relative">
+                                <li><a href="home.html">Home</a></li>
+                                <li><a href="Job_List.html">Jobs Available</a></li>
+
+                                <li><a href="ContactUs.html">Contact us</a>
+
+                                <li><a href="Login.html">Login</a>
+
+                                </li>
+
+                                <li><a href="register.html">Register</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
                 </div>
-                <div class="bg-overlay3"></div>
-            </section>
-            <!--== End Page Title Area ==-->
+            </div>
+        </div>
+    </header>-->
+    <!--== End Header==-->
 
-            <!--== Start Service Area Wrapper ==-->
+    <main class="main-content">
+        <!--== Start Page Title Area ==-->
+        <section class="page-title-area bg-img" style="background-image: url('img/back.png');">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-12 m-auto">
+                        <div class="page-title-content text-center">
+                            <h2 class="title">Job Categories</h2>
+                        </div>
+                    </div>
 
-            <section class="service-details-area">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
+                </div>
+            </div>
+            <div class="bg-overlay3"></div>
 
-                            <div class="widget-item">
-                                <div class="widget-body">
-                                    <div class="search-container">
-                                        <input type="text" name="search"
-                                            placeholder="Job title,Keywords or company names..." class="search-input">
-                                        <a href="#" class="search-btn">
-                                            <i class="fas fa-search"></i>
-                                        </a>
-                                    </div>
+        </section>
+        <!--== End Page Title Area ==-->
 
+        <!--== Start Service Area Wrapper ==-->
+
+        <section class="service-details-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+
+                        <div class="widget-item">
+                            <div class="widget-body">
+                                <div class="search-container">
+                                    <input type="text" name="search"
+                                        placeholder="Job title,Keywords or company names..." class="search-input">
+                                    <a href="#" class="search-btn">
+                                        <i class="fas fa-search"></i>
+                                    </a>
                                 </div>
+
                             </div>
-                            <div class="widget-item">
-                                <div class="widget-title">
-                                    <h3 class="title">Popular categories</h3>
-                                </div>
-
-                                <div class="widget-body">
-                                    <div class="widget-nav">
-                                        <ul>
-                                            <li><a href="x.html"> <img class="quote-icon" src="icons/pc.png" alt="Icon"
-                                                        width="80" height="10">Information Technology</a>
-                                            </li>
-                                            <li><a href="x.html"> <img class="quote-icon" src="icons/marketing.png"
-                                                        alt="Icon" width="80" height="10">Marketing</a></li>
-                                            <li><a href="x.html"> <img class="quote-icon" src="icons/cash.png"
-                                                        alt="Icon" width="80" height="10">Financial carrer</a></li>
-                                            <li><a href="x.html"> <img class="quote-icon" src="icons/constraction.png"
-                                                        alt="Icon" width="80" height="10">Construction</a></li>
-                                            <li><a href="x.html"> <img class="quote-icon" src="icons/employer.png"
-                                                        alt="Icon" width="80" height="10">Employer</a></li>
-                                            <li><a href="x.html"> <img class="quote-icon" src="icons/cordinator.png"
-                                                        alt="Icon" width="80" height="10">Cordinator</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
+                        </div>
+                        <div class="widget-item">
                             <div class="widget-title">
-                                <h3 class="title">Featured Jobs</h3>
+                                <h3 class="title">Popular categories</h3>
                             </div>
-                            <div class="Jobs_available">
-                                <table>
-                                    <tbody>
-                                        <tr>
-                                            <td>
-                                                <img class="quote-icon" src="icons/Networking.png" alt="Icon"
-                                                    width="150" height="60">
-                                            </td>
-                                            <td>
-                                                <p class="name">Networking Engineer
-                                                </p>
-                                            </td>
-                                            <td>
-                                                <p>Lorem Ipsum is simply dummy text of the
-                                                    printing and typesetting industry. Lorem
-                                                    Ipsum has been the industry's standard dummy
-                                                    text ever since the 1500s, when an unknown
-                                                    printer took a galley of type and scrambled
-                                                    it to make a type specimen book.</p>
-                                            </td>
-                                            <td class="status">
-                                                <h6 class="designation1">Part time</h6>
-                                                <div style="display: flex;">
-                                                    <a href="link"></a><img class="quote-icon" src="icons/link.png"
-                                                        alt="Icon" width="19" height="60"></a>
-                                                    <a href="tel://+21600000000"><img class="quote-icon"
-                                                            src="icons/phone.png" alt="Icon" width="15" height="60"></a>
-                                                    <a href="mailto://mail@mail.com"><img class="quote-icon"
-                                                            src="icons/mail.png" alt="Icon" width="20" height="60"></a>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td><img class="quote-icon" src="icons/frontend.png" alt="Icon" width="52"
-                                                    height="64"></td>
-                                            <td>
-                                                <p class="name">Front end Developer
-                                                </p>
-                                            </td>
-                                            <td>
-                                                <p>Lorem Ipsum is simply dummy text of the
-                                                    printing and typesetting industry. Lorem
-                                                    Ipsum has been the industry's standard dummy
-                                                    text ever since the 1500s, when an unknown
-                                                    printer took a galley of type and scrambled
-                                                    it to make a type specimen book. </p>
-                                            </td>
-                                            <td class="status">
-                                                <h6 class="designation2">Freelance</h6>
-                                                <div style="display: flex;">
-                                                    <a href="link"></a><img class="quote-icon" src="icons/link.png"
-                                                        alt="Icon" width="19" height="90"></a>
-                                                    <a href="tel://+21600000000"><img class="quote-icon"
-                                                            src="icons/phone.png" alt="Icon" width="15" height="60"></a>
-                                                    <a href="mailto://mail@mail.com"><img class="quote-icon"
-                                                            src="icons/mail.png" alt="Icon" width="20" height="100"></a>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td><img class="quote-icon" src="icons/UX.png" alt="Icon" width="54"
-                                                    height="90"></td>
-                                            <td>
-                                                <p class="name">UX Designer
-                                                </p>
-                                            </td>
-                                            <td>
-                                                <p>Lorem Ipsum is simply dummy text of the
-                                                    printing and typesetting industry. Lorem
-                                                    Ipsum has been the industry's standard dummy
-                                                    text ever since the 1500s, when an unknown
-                                                    printer took a galley of type and scrambled
-                                                    it to make a type specimen book.</p>
-                                            </td>
-                                            <td class="status">
-                                                <h6 class="designation3">Full time</h6>
-                                                <div style="display: flex;">
-                                                    <a href="link"></a><img class="quote-icon" src="icons/link.png"
-                                                        alt="Icon" width="19" height="90"></a>
-                                                    <a href="tel://+21600000000"><img class="quote-icon"
-                                                            src="icons/phone.png" alt="Icon" width="15" height="60"></a>
-                                                    <a href="mailto://mail@mail.com"><img class="quote-icon"
-                                                            src="icons/mail.png" alt="Icon" width="20" height="100"></a>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
+
+                            <div class="container">
+                                <!--<div class="buttons">
+                                    <div class="list"><i class="fa fa-list"></i></div>
+                                    <div class="grid"><i class="fa fa-th-large"></i></div>
+                                </div>-->
+                                <div class="wrapper" id="wrapper">
+                                    <div class="col">
+                                        <a href="x.html"> <img class="quote-icon" src="icons/pc.png" alt="Icon"
+                                                width="80" height="10">Information Technology</a>
+                                    </div>
+                                    <div class="col">
+                                        <a href="x.html"> <img class="quote-icon" src="icons/marketing.png" alt="Icon"
+                                                width="80" height="10">Marketing</a>
+
+                                    </div>
+                                    <div class="col"> <a href="x.html"> <img class="quote-icon"
+                                                src="icons/constraction.png" alt="Icon" width="80"
+                                                height="10">Construction</a>
+
+                                    </div>
+                                    <div class="col"> <a href="x.html"> <img class="quote-icon" src="icons/employer.png"
+                                                alt="Icon" width="80" height="10">Employer</a>
+
+                                    </div>
+                                    <div class="col"> <a href="x.html"> <img class="quote-icon"
+                                                src="icons/cordinator.png" alt="Icon" width="80"
+                                                height="10">Cordinator</a>
+
+                                    </div>
+                                    <div class="col"> <a href="x.html"> <img class="quote-icon" src="icons/cash.png"
+                                                alt="Icon" width="80" height="10">Financial
+                                            carrer</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--<div class="widget-body">
+                                        <div class="widget-nav">
+                                            <ul>
+                                                <li><a href="x.html"> <img class="quote-icon" src="icons/pc.png"
+                                                            alt="Icon" width="80" height="10">Information Technology</a>
+                                                </li>
+                                                <li><a href="x.html"> <img class="quote-icon" src="icons/marketing.png"
+                                                            alt="Icon" width="80" height="10">Marketing</a></li>
+                                                <li><a href="x.html"> <img class="quote-icon" src="icons/cash.png"
+                                                            alt="Icon" width="80" height="10">Financial carrer</a></li>
+                                                <li><a href="x.html"> <img class="quote-icon"
+                                                            src="icons/constraction.png" alt="Icon" width="80"
+                                                            height="10">Construction</a></li>
+                                                <li><a href="x.html"> <img class="quote-icon" src="icons/employer.png"
+                                                            alt="Icon" width="80" height="10">Employer</a></li>
+                                                <li><a href="x.html"> <img class="quote-icon" src="icons/cordinator.png"
+                                                            alt="Icon" width="80" height="10">Cordinator</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>-->
+                    </div>
+                    <div id='filter'>
+                        <div class="widget-title">
+                            <h3 class="title">Featured Jobs</h3>
+                        </div>
+
+                        <div id="app-cover">
+                            <div id="select-box">
+                                <input type="checkbox" id="options-view-button">
+                                <div id="select-button" class="brd">
+                                    <div id="selected-value">
+                                        <span>Job type</span>
+                                    </div>
+                                    <div id="chevrons">
+                                        <i class="fas fa-chevron-up"></i>
+                                        <i class="fas fa-chevron-down"></i>
+                                    </div>
+                                </div>
+                                <div id="options">
+                                    <div class="option">
+                                        <input class="s-c top" type="radio" name="jobtype" value="parttime">
+                                        <input class="s-c bottom" type="radio" name="jobtype" value="parttime">
+                                        <!-- <i class="fab fa-codepen"></i>-->
+                                        <span class="label">Part Time</span>
+                                        <span class="opt-val">Part Time</span>
+                                    </div>
+                                    <div class="option">
+                                        <input class="s-c top" type="radio" name="jobtype" value="fulltime">
+                                        <input class="s-c bottom" type="radio" name="jobtype" value="fulltime">
+                                        <!-- <i class="fab fa-dribbble"></i>-->
+                                        <span class="label">Full Time</span>
+                                        <span class="opt-val">Full Time</span>
+                                    </div>
+                                    <div class="option">
+                                        <input class="s-c top" type="radio" name="jobtype" value="freelance">
+                                        <input class="s-c bottom" type="radio" name="jobtype" value="freelance">
+                                        <!-- <i class="fab fa-behance"></i>-->
+                                        <span class="label">Freelance</span>
+                                        <span class="opt-val">Freelance</span>
+                                    </div>
+                                    <div class="option">
+                                        <input class="s-c top" type="radio" name="jobtype" value="freelance">
+                                        <input class="s-c bottom" type="radio" name="jobtype" value="freelance">
+                                        <!-- <i class="fab fa-behance"></i>-->
+                                        <span class="label">Temporary</span>
+                                        <span class="opt-val">Temporary</span>
+                                    </div>
+                                    <div id="option-bg"></div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div id="app-cover">
+                            <div id="select-box">
+                                <input type="checkbox" id="options-view-button">
+                                <div id="select-button" class="brd">
+                                    <div id="selected-value">
+                                        <span>Specialism</span>
+                                    </div>
+                                    <div id="chevrons">
+                                        <i class="fas fa-chevron-up"></i>
+                                        <i class="fas fa-chevron-down"></i>
+                                    </div>
+                                </div>
+                                <div id="options">
+                                    <div class="option">
+                                        <input class="s-c top" type="radio" name="specialism" value="parttime">
+                                        <input class="s-c bottom" type="radio" name="specialism" value="parttime">
+                                        <!-- <i class="fab fa-codepen"></i>-->
+                                        <span class="label">Networking</span>
+                                        <span class="opt-val">Networking</span>
+                                    </div>
+                                    <div class="option">
+                                        <input class="s-c top" type="radio" name="specialism" value="fulltime">
+                                        <input class="s-c bottom" type="radio" name="specialism" value="fulltime">
+                                        <!-- <i class="fab fa-dribbble"></i>-->
+                                        <span class="label">Front End Developer</span>
+                                        <span class="opt-val">Front End Developer</span>
+                                    </div>
+                                    <div class="option">
+                                        <input class="s-c top" type="radio" name="specialism" value="freelance">
+                                        <input class="s-c bottom" type="radio" name="specialism" value="freelance">
+                                        <!-- <i class="fab fa-behance"></i>-->
+                                        <span class="label">Mobile Developer</span>
+                                        <span class="opt-val">Mobile Developer</span>
+                                    </div>
+                                    <div class="option">
+                                        <input class="s-c top" type="radio" name="specialism" value="freelance">
+                                        <input class="s-c bottom" type="radio" name="specialism" value="freelance">
+                                        <!-- <i class="fab fa-behance"></i>-->
+                                        <span class="label">UX Designer</span>
+                                        <span class="opt-val">UX Designer</span>
+                                    </div>
+                                    <div id="option-bg"></div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div id="app-cover">
+                            <div id="select-box">
+                                <input type="checkbox" id="options-view-button">
+                                <div id="select-button" class="brd">
+                                    <div id="selected-value">
+                                        <span>Date</span>
+                                    </div>
+                                    <div id="chevrons">
+                                        <i class="fas fa-chevron-up"></i>
+                                        <i class="fas fa-chevron-down"></i>
+                                    </div>
+                                </div>
+                                <div id="options">
+                                    <div class="option">
+                                        <input class="s-c top" type="radio" name="date" value="today">
+                                        <input class="s-c bottom" type="radio" name="date" value="today">
+                                        <!-- <i class="fab fa-codepen"></i>-->
+                                        <span class="label">Today</span>
+                                        <span class="opt-val">Today</span>
+                                    </div>
+                                    <div class="option">
+                                        <input class="s-c top" type="radio" name="date" value="thisweek">
+                                        <input class="s-c bottom" type="radio" name="date" value="thisweek">
+                                        <!-- <i class="fab fa-dribbble"></i>-->
+                                        <span class="label">This week<span>
+                                                <span class="opt-val">This week</span>
+                                    </div>
+                                    <div class="option">
+                                        <input class="s-c top" type="radio" name="date" value="thismounth">
+                                        <input class="s-c bottom" type="radio" name="date" value="thismounth">
+                                        <!-- <i class="fab fa-behance"></i>-->
+                                        <span class="label">This mounth</span>
+                                        <span class="opt-val">This mounth</span>
+                                    </div>
+                                    <div class="option">
+                                        <input class="s-c top" type="radio" name="date" value="thisyear">
+                                        <input class="s-c bottom" type="radio" name="date" value="thisyear">
+                                        <!-- <i class="fab fa-behance"></i>-->
+                                        <span class="label">This year</span>
+                                        <span class="opt-val">This year</span>
+                                    </div>
+                                    <div id="option-bg"></div>
+                                </div>
                             </div>
                         </div>
                     </div>
+
+                    <!-- <a href="https://www.youtube.com/channel/UC7hSS_eujjZOEQrjsda76gA/videos" target="_blank" id="ytd-url">My YouTube Channel</a> -->
                 </div>
-            </section>
-            <!--== End Service Area Wrapper ==-->
-        </main>
+                <div class="Jobs_available">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <img class="quote-icon" src="icons/Networking.png" alt="Icon" width="150"
+                                        height="60">
+                                </td>
+                                <td>
+                                    <p class="name">Networking Engineer
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>Lorem Ipsum is simply dummy text of the
+                                        printing and typesetting industry. Lorem
+                                        Ipsum has been the industry's standard dummy
+                                        text ever since the 1500s, when an unknown
+                                        printer took a galley of type and scrambled
+                                        it to make a type specimen book.</p>
+                                </td>
+                                <td class="status">
+                                    <h6 class="designation1">Part time</h6>
+                                    <div style="display: flex;">
+                                        <a href="link"></a><img class="quote-icon" src="icons/link.png" alt="Icon"
+                                            width="19" height="60"></a>
+                                        <a href="tel://+21600000000"><img class="quote-icon" src="icons/phone.png"
+                                                alt="Icon" width="15" height="60"></a>
+                                        <a href="mailto://mail@mail.com"><img class="quote-icon" src="icons/mail.png"
+                                                alt="Icon" width="20" height="60"></a>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><img class="quote-icon" src="icons/frontend.png" alt="Icon" width="52" height="64">
+                                </td>
+                                <td>
+                                    <p class="name">Front end Developer
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>Lorem Ipsum is simply dummy text of the
+                                        printing and typesetting industry. Lorem
+                                        Ipsum has been the industry's standard dummy
+                                        text ever since the 1500s, when an unknown
+                                        printer took a galley of type and scrambled
+                                        it to make a type specimen book. </p>
+                                </td>
+                                <td class="status">
+                                    <h6 class="designation2">Freelance</h6>
+                                    <div style="display: flex;">
+                                        <a href="link"></a><img class="quote-icon" src="icons/link.png" alt="Icon"
+                                            width="19" height="90"></a>
+                                        <a href="tel://+21600000000"><img class="quote-icon" src="icons/phone.png"
+                                                alt="Icon" width="15" height="60"></a>
+                                        <a href="mailto://mail@mail.com"><img class="quote-icon" src="icons/mail.png"
+                                                alt="Icon" width="20" height="100"></a>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><img class="quote-icon" src="icons/UX.png" alt="Icon" width="54" height="90">
+                                </td>
+                                <td>
+                                    <p class="name">UX Designer
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>Lorem Ipsum is simply dummy text of the
+                                        printing and typesetting industry. Lorem
+                                        Ipsum has been the industry's standard dummy
+                                        text ever since the 1500s, when an unknown
+                                        printer took a galley of type and scrambled
+                                        it to make a type specimen book.</p>
+                                </td>
+                                <td class="status">
+                                    <h6 class="designation3">Full time</h6>
+                                    <div style="display: flex;">
+                                        <a href="link"></a><img class="quote-icon" src="icons/link.png" alt="Icon"
+                                            width="19" height="90"></a>
+                                        <a href="tel://+21600000000"><img class="quote-icon" src="icons/phone.png"
+                                                alt="Icon" width="15" height="60"></a>
+                                        <a href="mailto://mail@mail.com"><img class="quote-icon" src="icons/mail.png"
+                                                alt="Icon" width="20" height="100"></a>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            </div>
+            </div>
+        </section>
+        <!--== End Service Area Wrapper ==-->
+    </main>
 
     <!--== Start Footer ==-->
     <footer class="footer-area default-style">
@@ -247,7 +464,7 @@
                     </div>
                 </div>
             </div>
-        </div>    
+        </div>
     </footer>
     <!--== End Footer ==-->
 
