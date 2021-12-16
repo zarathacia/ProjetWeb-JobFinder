@@ -142,8 +142,12 @@ table p {
 -----------------------------------------------------------------------
 */
 .container {
-  padding-left: 15px;
-  padding-right: 15px;
+  /*padding-left: 15px;
+  padding-right: 15px;*/
+  padding-top: 0%;
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-bottom: 1%;
 }
 
 .row {
@@ -771,7 +775,7 @@ p {
   color: black;
 }
 .status .designation1 {
-  color: greenyellow;
+  color: #32c766;
   margin-left: 16px;
   font-size: 17px;
 }
@@ -4871,6 +4875,7 @@ p {
   font-weight: 700;
   font-size: 32px;
   margin-bottom: 32px;
+  margin-left: 35px;
   text-transform: uppercase;
 }
 @media only screen and (max-width: 575px) {
@@ -4998,7 +5003,7 @@ text-shadow: 2px 2px 3px rgba(255,255,255,0.5);*/
     margin-bottom: 10px;
   }
 }
-.widget-testimonial-area .testimonial-content .client-info .designation1 {
+.widget-testimonial-area .testimonial-content .client-info .designation3 {
   color: #0055ff;
   font-weight: 500;
   font-size: 17px;
@@ -5010,7 +5015,7 @@ text-shadow: 2px 2px 3px rgba(255,255,255,0.5);*/
   font-size: 17px;
   font-style: bold;
 }
-.widget-testimonial-area .testimonial-content .client-info .designation3 {
+.widget-testimonial-area .testimonial-content .client-info .designation1 {
   color: #2bbc13;
   font-weight: 500;
   font-size: 17px;
