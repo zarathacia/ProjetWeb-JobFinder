@@ -220,8 +220,8 @@ th {
     margin-left: 200px;
   }
   .level1{
-    width: 300px;
-    height:320px;
+    width: 280px;
+    height:250px;
     background-repeat: no-repeat;
     background-size: cover;
 box-shadow:2px 2px 18px rgba(0,0,0,0.3);
@@ -259,7 +259,7 @@ box-shadow:2px 2px 18px rgba(0,0,0,0.3);
   }
   .level2{
     width: 300px;
-    height:320px;
+    height:250px;
     background-repeat: no-repeat;
     background-size: cover;
 box-shadow:2px 2px 18px rgba(0,0,0,0.3);
@@ -271,8 +271,8 @@ box-shadow:2px 2px 18px rgba(0,0,0,0.3);
    
   }
   .level2 span{
-    width:40px;
-    height:40px;
+    width:20px;
+    height:20px;
     border-radius:50%;
     background-color:#ffffff;
     display: flex;
@@ -300,6 +300,7 @@ box-shadow:2px 2px 18px rgba(0,0,0,0.3);
       height:600px;
       background-color:#ffffff;
       padding: 2% 10% 0px 10%;
+      margin-top: 200px;
     }
     .work-text p:nth-child(1){
       font-family: calibri;
@@ -326,10 +327,11 @@ box-shadow:2px 2px 18px rgba(0,0,0,0.3);
     .box-container{
       display:flex;
       justify-content:space-between;
+      margin-right: 400px;
     }
     .box-1,.box-2,.box-3{
-      width: 300px;
-      height:320px;
+      width: 250px;
+      height:200px;
       background-repeat: no-repeat;
       background-size: cover;
 box-shadow:2px 2px 18px rgba(0,0,0,0.3);
@@ -344,8 +346,8 @@ box-shadow:2px 2px 18px rgba(0,0,0,0.3);
     .box-1 span,
     .box-2 span,
     .box-3 span{
-      width:40px;
-      height:40px;
+      width:30px;
+      height:30px;
       border-radius:50%;
       background-color:#ffffff;
       display: flex;
@@ -375,6 +377,7 @@ box-shadow:2px 2px 18px rgba(0,0,0,0.3);
       height:600px;
       background-color:#ffffff;
       padding: 2% 10% 0px 10%;
+      margin-top: -200px;
     }
     ul {
       list-style-type: none;
