@@ -188,8 +188,8 @@ th {
   color: black;
 }
 .level2 {
-  width: 260px;
-  height: 230px;
+  width: 300px;
+  height: 300px;
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: 2px 2px 18px rgba(0, 0, 0, 0.3);
@@ -972,8 +972,8 @@ p.center-date {
 
 .title3 p {
   margin-left: 230px;
-  margin-top: -80px;
-  font-family: calibri;
+  margin-top: -30px;
+  margin-bottom: 20px;
   font-weight: bold;
   color: #1d1c1c;
   font-size: 30px;
