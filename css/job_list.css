@@ -81,7 +81,13 @@
 }
 
 /*------------------------------------------------*/
+tr:hover {
+  border-radius: 10px;
+  border: 1px solid #ccc;
 
+  box-shadow: 0 0 15px rgba(33, 33, 33, 0.2);
+}
+/*------------------------------------------------*/
 * {
   user-select: none;
 }
@@ -130,7 +136,7 @@ body {
   left: 30%;
   width: 15%;
   height: 42px;
-  margin-left: 0.5%;
+  margin-left: 1%;
   /*margin: 100px auto 0 auto;*/
 }
 
@@ -206,7 +212,7 @@ body {
   top: 42px;
   right: 0;
   left: 0;
-  width: 298px;
+  width: 205px;
   margin: 0 auto;
   background-color: #fff;
   border-radius: 4px;
