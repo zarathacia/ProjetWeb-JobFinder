@@ -153,20 +153,23 @@ margin-top: -870px;
   }
 table {
   border-collapse: collapse;
-  border: 2px solid rgb(200, 200, 200);
+  border: 2px solid rgb(212, 212, 212);
   letter-spacing: 1px;
   font-size: .8rem;
   margin-left: 15%;
-  margin-top:200px;
+  margin-top:80px;
   width:900px;
 
 }
 th[scope="col"] {
-  background-color: #e7e4e4;
-  color: black;
+  background-color: white;
+  color:#000;
+  font-size: 15px;
+  text-emphasis: none;
+
 }
 th {
-  border: 1px solid rgb(190, 190, 190);
+  border: 1px solid rgb(212, 212, 212);
   padding: 10px;
 }
 .item2 {
