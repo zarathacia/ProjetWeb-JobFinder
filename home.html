@@ -9,10 +9,12 @@
 
   <title>Home</title>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
-  
+ 
+
+
   <link href="css/home.css" rel="stylesheet" />
   <link rel="stylesheet" href="css/navigation.css">
-
+  <link rel="stylesheet" href="css/cards.css">
 
   <script type="text/javascript" src="js/particles.js"></script>
 </head>
@@ -21,7 +23,9 @@
   <section class="navigation">
     <div class="nav-container">
       <div class="brand">
-        <a href="home.html">Logo</a>
+        <a href="home.html"> 
+          <img class="logo-main" src="icons/JobFinder_Logo.png" alt="Logo" width="175" height="65">
+        </a>
       </div>
       <nav>
         <ul class="nav-list">
@@ -32,7 +36,7 @@
             <a href="Job_List.html">Jobs Available</a>
           </li>
           <li>
-            <a href="#">Contact Us</a>
+            <a href="contact.html">Contact Us</a>
           </li>
           <li>
             <a href="register.html">Register</a>
@@ -46,19 +50,21 @@
   </section>
 
   <section class="welcome">
-    <div class="intro" >
+    <div class="intro">
       <center>
-        <h1 >Your next job is a click away</h1>
+        <h1>Your next job is a click away</h1>
+        <div class="searchbar">
         <form>
-        <input class="searchbar textfield " type="text" placeholder="Search here ...">
-        <select class="filter">
-          <option>Developer</option>
-          <option>Developer</option>
-          <option>Developer</option>
-          <option>Developer</option>
-        </select>
-        <input class="searchbutton" type="button" value="Search">
-      </form>
+          <input class="search textfield " type="text" placeholder="Search here ...">
+          <select class="filter">
+            <option>Developer</option>
+            <option>Developer</option>
+            <option>Developer</option>
+            <option>Developer</option>
+          </select>
+          <input class="searchbutton" type="button" value="Search">
+        </form>
+      </div>
       </center>
     </div>
   </section>
@@ -66,13 +72,79 @@
   <section id="recent">
     <div>
       <center>
-        <h1>Your next job is a click away</h1>
-        <input type="text">
-        <select></select>
-        <input type="button" value="Search">
+        <h1>Recent Jobs</h1>
+        <h3>Lorem ipsum dolor sit amet, consectetur</h2>
+
+        <div class="stack">
+
+          <div class="card">
+            <div class="card-head">
+              <img class="icon" src="icons/frontend.png">
+              <h2 class="card-title">Front End Web Developer</h2>
+            </div>
+            <div class="card-body">
+              <p><strong>Company:</strong> The IT Company</p>
+              <p><strong>Location:</strong> Hamburg, DE</p>
+              <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, professional
+                 inceptos himenaeos.</p>
+            </div>
+            <button class="btn spacer">Learn More</button>
+          </div>
+
+          <div class="card">
+            <div class="card-head">
+              <img class="icon" src="icons/Networking.png">
+              <h2 class="card-title">Back End Developer</h2>
+            </div>
+
+            <div class="card-body">
+              <p><strong>Company:</strong> WeAreIT</p>
+              <p><strong>Location:</strong> Hamburg, DE</p>
+              <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+            </div>
+            <div>
+              <button class="btn spacer">Learn More</button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-head">
+              <img class="icon" src="icons/Networking.png">
+              <h2 class="card-title">Back End Developer</h2>
+            </div>
+
+            <div class="card-body">
+              <p><strong>Company:</strong> WeAreIT</p>
+              <p><strong>Location:</strong> Hamburg, DE</p>
+              <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+            </div>
+            <div>
+              <button class="btn spacer">Learn More</button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-head">
+              <img class="icon" src="icons/UX.png">
+              <h2 class="card-title">Back End Developer</h2>
+            </div>
+            <div class="card-body">
+              <p><strong>Company:</strong> The DevOps Co.</p>
+              <p><strong>Location:</strong> Hamburg, DE</p>
+              <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+            </div>
+            <div class="card-footer">
+              <button class="btn spacer">Learn More</button>
+            </div>
+          </div>
+
+        </div>
+
+
       </center>
     </div>
   </section>
+
+
+
   <section id="register">
     <div class="cta__copy text-center">
       <h3>Want to work together?</h3>
@@ -93,30 +165,30 @@
           30M
         </p>
         <P>User</P>
- 
+
         <p>
           100
         </p>
         <P>compagnies</P>
- 
+
         <p>
           40M
         </p>
         <P>Satisfied</P>
- 
+
       </center>
     </div>
   </section>
   <section id="compagnies">
     <div>
       <center>
-<ul>
-  <li><img src="img/logos/amazon.png"></li>
-  <li><img src="img/logos/CDprojekt.png"></li>
-  <li><img src="img/logos/google.png"></li>
-  <li><img src="img/logos/Microsoft.png"></li>
-  
-</ul>
+        <ul>
+          <li><img src="img/logos/amazon.png"></li>
+          <li><img src="img/logos/CDprojekt.png"></li>
+          <li><img src="img/logos/google.png"></li>
+          <li><img src="img/logos/Microsoft.png"></li>
+
+        </ul>
 
       </center>
     </div>
@@ -132,7 +204,7 @@
     </div>
   </section>
 
-  <footer >
+  <footer>
   </footer>
 
 
