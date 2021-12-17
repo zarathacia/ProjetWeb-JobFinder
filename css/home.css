@@ -1,95 +1,108 @@
-body{
-    font-family: 'sans serif';
+body {
+  font-family: "sans serif";
 }
-.welcome{
-    color: #fff;
-    height: 500px;
-    width:100%;
-    background-image: url(../img/home-background.png);
-    text-align: center;
-    color: #fff;
-    background-attachment: scroll;
-    background-position: center center;
-    background-repeat: none;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+h1{
+    padding-top: 20px;
+    font-size: 30px;
+}
+h3{
+    padding-top: 20px;
+    font-size: 24px;
+    font-weight: 100;
+    color: #444;
+}
+
+.welcome {
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 20px;
+  height: 500px;
+  width: auto;
+  background-image: url(../img/home-background.png);
+  color: #fff;
+  background-attachment: scroll;
+  background-position: center center;
+  background-repeat: none;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.searchbar{
+    width: auto;
 }
 
 .textfield {
-    width: 50%;
-    color: #444;
-    font-weight: 700;
-    font-size: 14px;
-    letter-spacing: 1px;
-    background: rgba(255, 255, 255, 0.8);
-    padding: 10px 20px;
-    border: none;
-    border-radius: 20px;
-    outline: none;
-    box-sizing: border-box;
-    border: 2px solid rgba(0, 0, 0, 0.384);
-    margin-bottom: 50px;
-    margin-left: 46px;
-    text-align: center;
-    margin-bottom: 27px;
-    z-index: 1;
-  }
-  .searchbar{
-      border-radius: 20px 0 0 20px;
-  }
-  .filter{
-    border-radius: 0;
-    color: #444;
-    background: rgba(255, 255, 255, 0.8);
-    font-weight: 700;
-    font-size: 14px;
-    padding: 10px 20px;
-    border: none;
-    letter-spacing: 1px;
-    outline: none;
-    box-sizing: border-box;
-    border: 2px solid rgba(0, 0, 0, 0.384);
-    margin-bottom: 50px;
-    margin-left: 0px;
-    text-align: center;
-    margin-bottom: 27px;
-    z-index: 1;
-  }
+  color: #444;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  box-sizing: border-box;
+  border: 2px solid rgba(0, 0, 0, 0.384);
+  margin-bottom: 50px;
+  margin-left: 46px;
+  margin-bottom: 27px;
 
-  .searchbutton{
-      background-color: #F14F3F;
-      cursor: pointer;
-      border-radius: 0 20px 20px 0;
-      color: #fff;
-      border: 0;
-      border: none;
-      letter-spacing: 1px;
-      outline: none;
-      box-sizing: border-box;
-      border: 2px solid rgba(0, 0, 0, 0.384);
-      margin-bottom: 50px;
-      margin-left: 0px;
-      text-align: center;
-      margin-bottom: 27px;
-
-      padding: 10px 40px;
-      font-weight: 700;
-      font-size: 14px;
-      box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
-
-  }
-
-.intro
-{
-    padding-top: 10%;
-    padding-bottom: 40%;
-    
+  z-index: 1;
+}
+.search {
+  border-radius: 20px 0 0 20px;
+}
+.filter {
+  display: inline;
+  border-radius: 0;
+  color: #444;
+  background: rgba(255, 255, 255, 0.8);
+  font-weight: 700;
+  font-size: 14px;
+  padding: 10px 20px;
+  border: none;
+  letter-spacing: 1px;
+  outline: none;
+  box-sizing: border-box;
+  border: 2px solid rgba(0, 0, 0, 0.384);
+  margin-bottom: 50px;
+  margin-left: 0px;
+  text-align: center;
+  margin-bottom: 27px;
+  z-index: 1;
 }
 
-#register{
-    height: 300px;
-    width:100%;
-    background-image: url(../img/background_register.png);
+.searchbutton {
+  flex: auto;
+  background-color: #f14f3f;
+  cursor: pointer;
+  border-radius: 0 20px 20px 0;
+  color: #fff;
+  border: 0;
+  border: none;
+  letter-spacing: 1px;
+  outline: none;
+  box-sizing: border-box;
+  border: 2px solid rgba(0, 0, 0, 0.384);
+  margin-bottom: 50px;
+  margin-left: 0px;
+  text-align: center;
+  margin-bottom: 27px;
+
+  padding: 10px 40px;
+  font-weight: 700;
+  font-size: 14px;
+  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+}
+
+#register {
+  height: 300px;
+  width: 100%;
+  background-image: url(../img/background_register.png);
 }

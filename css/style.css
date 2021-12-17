@@ -630,10 +630,10 @@ table p {
 }
 
 .page-title-area .page-title-content .title {
-  bottom: -17px;
-  color: #fff;
+  bottom: 26%;
+  color: #171b23;
   font-weight: 700;
-  font-size: 128px;
+  font-size: 70px;
   margin: 0;
   position: absolute;
   line-height: 1;
