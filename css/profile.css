@@ -156,8 +156,9 @@ table {
   border: 2px solid rgb(200, 200, 200);
   letter-spacing: 1px;
   font-size: .8rem;
-  margin-left: 30%;
-  margin-top:200px
+  margin-left: 15%;
+  margin-top:200px;
+  width:900px;
 
 }
 th[scope="col"] {
@@ -208,7 +209,7 @@ th {
 }
 .title2 p{
   margin-left: 15%;
-  margin-top: 20px;
+  margin-top: 10px;
   font-family: calibri;
   font-weight:bold;
   color:#1d1c1c;
@@ -220,8 +221,8 @@ th {
     margin-left: 200px;
   }
   .level1{
-    width: 300px;
-    height:320px;
+    width: 260px;
+    height:230px;
     background-repeat: no-repeat;
     background-size: cover;
 box-shadow:2px 2px 18px rgba(0,0,0,0.3);
@@ -258,8 +259,8 @@ box-shadow:2px 2px 18px rgba(0,0,0,0.3);
     color:black;
   }
   .level2{
-    width: 300px;
-    height:320px;
+    width: 260px;
+    height:230px;
     background-repeat: no-repeat;
     background-size: cover;
 box-shadow:2px 2px 18px rgba(0,0,0,0.3);
@@ -271,8 +272,8 @@ box-shadow:2px 2px 18px rgba(0,0,0,0.3);
    
   }
   .level2 span{
-    width:40px;
-    height:40px;
+    width:20px;
+    height:20px;
     border-radius:50%;
     background-color:#ffffff;
     display: flex;
@@ -285,7 +286,7 @@ box-shadow:2px 2px 18px rgba(0,0,0,0.3);
   .level2 p{
     color:#1d1c1c;
     font-family: calibri;
-    font-size: 15px;
+    font-size: 13px;
     line-height:0px;
   }
   .level2 button{
@@ -300,6 +301,8 @@ box-shadow:2px 2px 18px rgba(0,0,0,0.3);
       height:600px;
       background-color:#ffffff;
       padding: 2% 10% 0px 10%;
+      margin-top: 0px;
+      margin-left: 50px;
     }
     .work-text p:nth-child(1){
       font-family: calibri;
@@ -326,10 +329,11 @@ box-shadow:2px 2px 18px rgba(0,0,0,0.3);
     .box-container{
       display:flex;
       justify-content:space-between;
+      margin-right: 400px;
     }
     .box-1,.box-2,.box-3{
-      width: 300px;
-      height:320px;
+      width: 250px;
+      height:100px;
       background-repeat: no-repeat;
       background-size: cover;
 box-shadow:2px 2px 18px rgba(0,0,0,0.3);
@@ -344,8 +348,8 @@ box-shadow:2px 2px 18px rgba(0,0,0,0.3);
     .box-1 span,
     .box-2 span,
     .box-3 span{
-      width:40px;
-      height:40px;
+      width:0px;
+      height:0px;
       border-radius:50%;
       background-color:#ffffff;
       display: flex;
@@ -375,6 +379,8 @@ box-shadow:2px 2px 18px rgba(0,0,0,0.3);
       height:600px;
       background-color:#ffffff;
       padding: 2% 10% 0px 10%;
+      margin-top: -400px;
+      margin-left: 50px;
     }
     ul {
       list-style-type: none;
@@ -415,7 +421,8 @@ box-shadow:2px 2px 18px rgba(0,0,0,0.3);
               background: white;
               border-radius: 5px;
               float: left;
-              width: 300px;
+              width: 250px;
+              height: 390px;
               overflow: hidden;
               border-radius: 5px;
               box-shadow:2px 2px 18px rgba(0,0,0,0.3);
@@ -607,8 +614,8 @@ box-shadow:2px 2px 18px rgba(0,0,0,0.3);
         background: white;
         border-radius: 5px;
         float: left;
-        width: 300px;
-        height: 410px;
+        width: 250px;
+        height: 390px;
         overflow: hidden;
         border-radius: 5px;
         box-shadow:2px 2px 18px rgba(0,0,0,0.3);
@@ -765,14 +772,14 @@ box-shadow:2px 2px 18px rgba(0,0,0,0.3);
     }
   
   #porcion11 .quesito1 {
-      background-color: #11A8AB;
+      background-color: #E64C65;
       transform: rotate(180deg);
     }
   #porcion21 {
       transform: rotate(160deg);
     }
   #porcion21 .quesito1 {
-      background-color:  #11A8AB;
+      background-color:  #E64C65;
       transform: rotate(180deg);
     }  
     .container2{
@@ -799,8 +806,8 @@ box-shadow:2px 2px 18px rgba(0,0,0,0.3);
             background: white;
             border-radius: 5px;
             float: left;
-            width: 300px;
-            height: 410px;
+            width: 250px;
+            height: 390px;
             overflow: hidden;
             border-radius: 5px;
             box-shadow:2px 2px 18px rgba(0,0,0,0.3);
@@ -956,20 +963,20 @@ box-shadow:2px 2px 18px rgba(0,0,0,0.3);
         }
       
       #porcion12 .quesito2 {
-          background-color:  #FCB150;
+          background-color:  #E64C65;
           transform: rotate(180deg);
         }
       #porcion22 {
           transform: rotate(160deg);
         }
       #porcion22 .quesito1 {
-          background-color:   #FCB150;
+          background-color:   #E64C65;
           transform: rotate(180deg);
         }  
         
 .title3 p{
-          margin-left: 10%;
-          margin-top: 20px;
+          margin-left: 200px;
+          margin-top: -80px;
           font-family: calibri;
           font-weight:bold;
           color:#1d1c1c;
