@@ -234,6 +234,7 @@ box-shadow:2px 2px 18px rgba(0,0,0,0.3);
     display: flex;
     flex-direction: column;
     margin: 0px 4px;   
+    margin-left: 30px;
    
   }
   .level1 span{
@@ -305,7 +306,7 @@ box-shadow:2px 2px 18px rgba(0,0,0,0.3);
       background-color:#ffffff;
       padding: 2% 10% 0px 10%;
       margin-top: 0px;
-      margin-left: 50px;
+      margin-left: 80px;
     }
     .work-text p:nth-child(1){
       font-family: calibri;
@@ -383,7 +384,7 @@ box-shadow:2px 2px 18px rgba(0,0,0,0.3);
       background-color:#ffffff;
       padding: 2% 10% 0px 10%;
       margin-top: -400px;
-      margin-left: 50px;
+      margin-left: 80px;
     }
     ul {
       list-style-type: none;
@@ -978,7 +979,7 @@ box-shadow:2px 2px 18px rgba(0,0,0,0.3);
         }  
         
 .title3 p{
-          margin-left: 200px;
+          margin-left: 230px;
           margin-top: -80px;
           font-family: calibri;
           font-weight:bold;
