@@ -7,6 +7,9 @@
   height: 50px;
   margin-right: 80%;
 }
+a{
+  text-decoration: none;
+}
 .welcome {
   color: #fff;
   height: 300px;
@@ -42,7 +45,6 @@
   font-size: 15px;
   margin-top: 10px;
   margin-right: 1%;
-  color: midnightblue;
 }
 .icon-profil1 {
   margin-top: -150px;
