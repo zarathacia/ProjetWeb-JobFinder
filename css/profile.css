@@ -156,8 +156,9 @@ table {
   border: 2px solid rgb(200, 200, 200);
   letter-spacing: 1px;
   font-size: .8rem;
-  margin-left: 30%;
-  margin-top:200px
+  margin-left: 15%;
+  margin-top:200px;
+  width:900px;
 
 }
 th[scope="col"] {
