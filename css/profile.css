@@ -302,6 +302,7 @@ box-shadow:2px 2px 18px rgba(0,0,0,0.3);
       background-color:#ffffff;
       padding: 2% 10% 0px 10%;
       margin-top: 200px;
+      margin-left: 50px;
     }
     .work-text p:nth-child(1){
       font-family: calibri;
@@ -379,6 +380,7 @@ box-shadow:2px 2px 18px rgba(0,0,0,0.3);
       background-color:#ffffff;
       padding: 2% 10% 0px 10%;
       margin-top: -200px;
+      margin-left: 50px;
     }
     ul {
       list-style-type: none;
@@ -419,7 +421,8 @@ box-shadow:2px 2px 18px rgba(0,0,0,0.3);
               background: white;
               border-radius: 5px;
               float: left;
-              width: 300px;
+              width: 250px;
+              height: 390px;
               overflow: hidden;
               border-radius: 5px;
               box-shadow:2px 2px 18px rgba(0,0,0,0.3);
@@ -611,8 +614,8 @@ box-shadow:2px 2px 18px rgba(0,0,0,0.3);
         background: white;
         border-radius: 5px;
         float: left;
-        width: 300px;
-        height: 410px;
+        width: 250px;
+        height: 390px;
         overflow: hidden;
         border-radius: 5px;
         box-shadow:2px 2px 18px rgba(0,0,0,0.3);
@@ -803,8 +806,8 @@ box-shadow:2px 2px 18px rgba(0,0,0,0.3);
             background: white;
             border-radius: 5px;
             float: left;
-            width: 300px;
-            height: 410px;
+            width: 250px;
+            height: 390px;
             overflow: hidden;
             border-radius: 5px;
             box-shadow:2px 2px 18px rgba(0,0,0,0.3);
@@ -972,7 +975,7 @@ box-shadow:2px 2px 18px rgba(0,0,0,0.3);
         }  
         
 .title3 p{
-          margin-left: 10%;
+          margin-left: 200px;
           margin-top: 20px;
           font-family: calibri;
           font-weight:bold;
