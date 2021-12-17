@@ -180,18 +180,7 @@ tr:hover {
   outline: none;
 }
 
-html,
-/*body {
-  height: 100%;
-  min-height: 100%;
-}
 
-body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  padding-bottom: 100px;
-  margin: 0;
-  background-color: #ebf3f3;
-}*/
 #filter {
   display: flex;
 }
@@ -512,23 +501,6 @@ input[type="radio"] {
 .option .fa-fulltime {
   color: red;
 }
-/*
-.option .fa-xx {
-  color: #0057ff;
-}
-
-.option .fa-xx {
-  color: #32c766;
-}
-
-.option .fa-xx {
-  color: #f48024;
-}
-
-.option .fa-xx {
-  color: #006400;
-}
-*/
 #option-bg {
   position: absolute;
   top: 0;
@@ -729,11 +701,9 @@ td img {
 }
 td {
   border-bottom: 1px solid #ddd;
-}
-td,
-p {
   color: darkslategrey;
 }
+
 .status {
   background: transparent;
   color: black;
@@ -771,7 +741,7 @@ h6,
 .h5,
 .h6 {
   color: #171b23;
-  font-family: "Lora", serif;
+  font-family: Montserrat, serif;
   font-weight: 400;
   line-height: 1.2;
   margin-bottom: 10px;
