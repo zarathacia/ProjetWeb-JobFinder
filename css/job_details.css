@@ -20,6 +20,9 @@
 body {
   font-family: Montserrat,"sans serif";
   line-height: 1.5em;
+  font-weight: 400;
+  background-color: #fff;
+  font-size: 16px
 }
 .container1 {
   max-width: 950px;
@@ -186,7 +189,6 @@ body {
 }
 p {
   font-size: 14px;
-  line-height: 25px;
   color: #7a7a7a;
 }
 * {
@@ -217,13 +219,6 @@ p {
   margin-right: auto;
   margin-left: auto;
   max-width: 90%;
-}
-html,
-body {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  background-color: #fff;
-  font-size: 16px;
 }
 .col-lg-4 {
   flex: 0 0 33.333333%;
@@ -278,7 +273,6 @@ nav,
 section,
 article,
 aside,
-footer,
 hgroup {
   display: block;
 }
@@ -480,25 +474,3 @@ label {
   margin-right: -15px;
   margin-left: -15px;
 }
-/*
-  .tabs-content article {
-    display: none;
-  }
-  .tabs-content {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .tabs-content .tab {
-    display: none;
-    width: 100%;
-    padding: 20px;
-    background: #fff;
-    order: 1;
-  }
-  .tabs-content a.active + label + .tab {
-    display: block;
-  }
-  
-  .tabs-content a.active + label {
-    background: #fff;
-  }*/
