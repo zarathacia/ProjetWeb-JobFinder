@@ -79,108 +79,268 @@
 
 
             <div class="row" id="tabs">
-                <div class="col-lg-4">
-                    <ul>
-                        <li><a href='#tabs-1'><i class="fa fa-cog"></i> Job Description</a></li>
-                        <li><a href='#tabs-2'><i class="fa fa-info-circle"></i> About Employer</a></li>
-                        <li><a href='#tabs-3'><i class="fa fa-phone"></i> Contact Details</a></li>
+                <!---<div class="col-lg-4">
+                    <div class="container">-->
+
+                <div class="content">
+                    <input type="radio" name="slider" checked id="description">
+                    <input type="radio" name="slider" id="about">
+                    <input type="radio" name="slider" id="contact">
+                    <div class="list">
+                        <label for="description" class="description">
+                            <i class="fa fa-cog"></i></i>
+                            <span class="title">Job Description</span>
+                        </label>
+                        <label for="about" class="about">
+                            <i class="fa fa-info-circle"></i>
+                            <span class="title">About</span>
+                        </label>
+
+                        <label for="contact" class="contact">
+                            <i class="fa fa-phone"></i>
+                            <span class="title">Contact</span>
+                        </label>
+                        <div class="slider"></div>
+                    </div>
+                    <div class="text-content">
+                        <div class="description text">
+                            <div class="title">Job Description</div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio eum expedita
+                                nobis
+                                cum
+                                vitae totam
+                                voluptate temporibus nostrum, repellendus accusantium.</p>
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo hic quis quo
+                                tempora,
+                                totam non vero
+                                velit. Inventore, obcaecati placeat perspiciatis neque enim laudantium. Sit
+                                eaque,
+                                aliquid et nisi illo.
+                            </p>
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit nam placeat ut
+                                cumque
+                                ipsa iste,
+                                commodi omnis aperiam perferendis incidunt. Provident doloremque, quia labore
+                                eius
+                                adipisci asperiores
+                                voluptatum nisi porro corporis ex explicabo magnam eligendi, autem quae,
+                                voluptate
+                                et
+                                molestiae?</p>
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae soluta
+                                architecto
+                                modi. Et ullam
+                                ipsam, tempore sequi nesciunt dignissimos animi odio eaque illum eligendi
+                                pariatur.
+                                Porro delectus a rem
+                                rerum ex similique fugit dolorem fugiat libero sint aliquam velit, eligendi
+                                adipisci
+                                fuga assumenda,
+                                dolorum, deserunt ea inventore quis voluptas accusantium omnis iure quia
+                                temporibus.
+                                Accusamus, adipisci
+                                facere ullam ea amet.</p>
+                            </article>
+                        </div>
+                        <div class="about text">
+                            <div class="title">About Employer</div>
+                            <article id='tabs-2'>
+                                <h4></h4>
+
+                                <p class="lead"> <i class="fa fa-map-marker"></i> London </p>
+
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia doloremque
+                                    sit,
+                                    enim
+                                    sint odio
+                                    corporis illum perferendis, unde repellendus aut dolore doloribus minima qui
+                                    ullam
+                                    vel
+                                    possimus magnam
+                                    ipsa deleniti.</p>
+
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus
+                                    ducimus ab
+                                    numquam magnam
+                                    aliquid, odit provident consectetur corporis eius blanditiis alias nulla
+                                    commodi qui
+                                    voluptatibus
+                                    laudantium quaerat tempore possimus esse nam sed accusantium inventore?
+                                    Sapiente
+                                    minima
+                                    dicta sed quia
+                                    sunt?</p>
+
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum qui, corrupti
+                                    consequuntur. Officia
+                                    consectetur error amet debitis esse minus quasi, dicta suscipit tempora,
+                                    natus,
+                                    vitae
+                                    voluptatem quae
+                                    libero. Sunt nulla culpa impedit! Aliquid cupiditate, impedit reiciendis
+                                    dolores,
+                                    illo
+                                    adipisci, omnis
+                                    dolor distinctio voluptas expedita maxime officiis maiores cumque sequi
+                                    quaerat
+                                    culpa
+                                    blanditiis. Quia
+                                    tenetur distinctio rem, quibusdam officiis voluptatum neque!</p>
+                            </article>
+                        </div>
+
+                        <div class="contact text">
+                            <div class="title">Contact Details</div>
+                            <article id='tabs-3'>
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <label>Name</label>
+
+                                        <p>John Smith</p>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <label>Phone</label>
+
+                                        <p>123-456-789 </p>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <label>Mobile phone</label>
+                                        <p>456789123 </p>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <label>Email</label>
+                                        <p><a href="#">john@carsales.com</a></p>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <label>Website</label>
+                                        <p><a href="http://www.cannonguards.com/">http://www.cannonguards.com/</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <ul class='nav nav-tabs tabs-left sideways'>
+                        <li class='active'><a href='#tabs-1' data-toggle="tab"><i class="fa fa-cog"></i> Job
+                                Description</a></li>
+                        <li><a href='#tabs-2' data-toggle="tab"><i class="fa fa-info-circle"></i> About Employer</a>
+                        </li>
+                        <li><a href='#tabs-3' data-toggle="tab"><i class="fa fa-phone"></i> Contact Details</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-8">
                     <section class='tabs-content' style="width: 100%;">
-                        <article id='tabs-1'>
-                            <h4>Job Description</h4>
+                        <div class='tab'>
+                            <article id='tabs-1'>
+                                <h4>Job Description</h4>
 
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio eum expedita nobis cum
-                                vitae totam
-                                voluptate temporibus nostrum, repellendus accusantium.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio eum expedita nobis
+                                    cum
+                                    vitae totam
+                                    voluptate temporibus nostrum, repellendus accusantium.</p>
 
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo hic quis quo tempora,
-                                totam non vero
-                                velit. Inventore, obcaecati placeat perspiciatis neque enim laudantium. Sit eaque,
-                                aliquid et nisi illo.
-                            </p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo hic quis quo tempora,
+                                    totam non vero
+                                    velit. Inventore, obcaecati placeat perspiciatis neque enim laudantium. Sit eaque,
+                                    aliquid et nisi illo.
+                                </p>
 
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit nam placeat ut cumque
-                                ipsa iste,
-                                commodi omnis aperiam perferendis incidunt. Provident doloremque, quia labore eius
-                                adipisci asperiores
-                                voluptatum nisi porro corporis ex explicabo magnam eligendi, autem quae, voluptate et
-                                molestiae?</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit nam placeat ut cumque
+                                    ipsa iste,
+                                    commodi omnis aperiam perferendis incidunt. Provident doloremque, quia labore eius
+                                    adipisci asperiores
+                                    voluptatum nisi porro corporis ex explicabo magnam eligendi, autem quae, voluptate
+                                    et
+                                    molestiae?</p>
 
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae soluta architecto
-                                modi. Et ullam
-                                ipsam, tempore sequi nesciunt dignissimos animi odio eaque illum eligendi pariatur.
-                                Porro delectus a rem
-                                rerum ex similique fugit dolorem fugiat libero sint aliquam velit, eligendi adipisci
-                                fuga assumenda,
-                                dolorum, deserunt ea inventore quis voluptas accusantium omnis iure quia temporibus.
-                                Accusamus, adipisci
-                                facere ullam ea amet.</p>
-                        </article>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae soluta
+                                    architecto
+                                    modi. Et ullam
+                                    ipsam, tempore sequi nesciunt dignissimos animi odio eaque illum eligendi pariatur.
+                                    Porro delectus a rem
+                                    rerum ex similique fugit dolorem fugiat libero sint aliquam velit, eligendi adipisci
+                                    fuga assumenda,
+                                    dolorum, deserunt ea inventore quis voluptas accusantium omnis iure quia temporibus.
+                                    Accusamus, adipisci
+                                    facere ullam ea amet.</p>
+                            </article>
+                        </div>
+                        <div class='tab'>
+                            <article id='tabs-2'>
+                                <h4>About Employer</h4>
 
-                        <article id='tabs-2'>
-                            <h4>About Employer</h4>
+                                <p class="lead"> <i class="fa fa-map-marker"></i> London </p>
 
-                            <p class="lead"> <i class="fa fa-map-marker"></i> London </p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia doloremque sit,
+                                    enim
+                                    sint odio
+                                    corporis illum perferendis, unde repellendus aut dolore doloribus minima qui ullam
+                                    vel
+                                    possimus magnam
+                                    ipsa deleniti.</p>
 
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia doloremque sit, enim
-                                sint odio
-                                corporis illum perferendis, unde repellendus aut dolore doloribus minima qui ullam vel
-                                possimus magnam
-                                ipsa deleniti.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus ducimus ab
+                                    numquam magnam
+                                    aliquid, odit provident consectetur corporis eius blanditiis alias nulla commodi qui
+                                    voluptatibus
+                                    laudantium quaerat tempore possimus esse nam sed accusantium inventore? Sapiente
+                                    minima
+                                    dicta sed quia
+                                    sunt?</p>
 
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus ducimus ab
-                                numquam magnam
-                                aliquid, odit provident consectetur corporis eius blanditiis alias nulla commodi qui
-                                voluptatibus
-                                laudantium quaerat tempore possimus esse nam sed accusantium inventore? Sapiente minima
-                                dicta sed quia
-                                sunt?</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum qui, corrupti
+                                    consequuntur. Officia
+                                    consectetur error amet debitis esse minus quasi, dicta suscipit tempora, natus,
+                                    vitae
+                                    voluptatem quae
+                                    libero. Sunt nulla culpa impedit! Aliquid cupiditate, impedit reiciendis dolores,
+                                    illo
+                                    adipisci, omnis
+                                    dolor distinctio voluptas expedita maxime officiis maiores cumque sequi quaerat
+                                    culpa
+                                    blanditiis. Quia
+                                    tenetur distinctio rem, quibusdam officiis voluptatum neque!</p>
+                            </article>
+                        </div>
+                        <div class='tab'>
+                            <article id='tabs-3'>
+                                <h4>Contact Details</h4>
 
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum qui, corrupti
-                                consequuntur. Officia
-                                consectetur error amet debitis esse minus quasi, dicta suscipit tempora, natus, vitae
-                                voluptatem quae
-                                libero. Sunt nulla culpa impedit! Aliquid cupiditate, impedit reiciendis dolores, illo
-                                adipisci, omnis
-                                dolor distinctio voluptas expedita maxime officiis maiores cumque sequi quaerat culpa
-                                blanditiis. Quia
-                                tenetur distinctio rem, quibusdam officiis voluptatum neque!</p>
-                        </article>
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <label>Name</label>
 
-                        <article id='tabs-3'>
-                            <h4>Contact Details</h4>
+                                        <p>John Smith</p>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <label>Phone</label>
 
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <label>Name</label>
-
-                                    <p>John Smith</p>
+                                        <p>123-456-789 </p>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <label>Mobile phone</label>
+                                        <p>456789123 </p>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <label>Email</label>
+                                        <p><a href="#">john@carsales.com</a></p>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <label>Website</label>
+                                        <p><a href="http://www.cannonguards.com/">http://www.cannonguards.com/</a></p>
+                                    </div>
                                 </div>
-                                <div class="col-sm-6">
-                                    <label>Phone</label>
-
-                                    <p>123-456-789 </p>
-                                </div>
-                                <div class="col-sm-6">
-                                    <label>Mobile phone</label>
-                                    <p>456789123 </p>
-                                </div>
-                                <div class="col-sm-6">
-                                    <label>Email</label>
-                                    <p><a href="#">john@carsales.com</a></p>
-                                </div>
-                                <div class="col-sm-6">
-                                    <label>Website</label>
-                                    <p><a href="http://www.cannonguards.com/">http://www.cannonguards.com/</a></p>
-                                </div>
-                            </div>
-                        </article>
+                            </article>
+                        </div>
                     </section>
                 </div>
             </div>
-        </div>
+        </div>-->
     </section>
     <!-- ***** Fleet Ends ***** -->
 

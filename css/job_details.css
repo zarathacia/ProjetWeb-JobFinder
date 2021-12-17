@@ -1,13 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container1 {
+  max-width: 950px;
+  width: 100%;
+  padding: 40px 50px 40px 40px;
+  background: #fff;
+  margin: 0 20px;
+  border-radius: 12px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.container1 .topic {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5%;
+}
+.content .list {
+  display: flex;
+  flex-direction: column;
+  width: 32%;
+  margin-right: 50px;
+  position: relative;
+}
+.content .list label {
+  height: 50px;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 60px;
+  cursor: pointer;
+  padding-left: 25px;
+  transition: all 0.5s ease;
+  color: #333;
+  z-index: 12;
+}
+#description:checked ~ .list label.description,
+#about:checked ~ .list label.about,
+#contact:checked ~ .list label.contact {
+  color: #fff;
+}
+.content .list label:hover {
+  color: red;
+}
+.content .slider {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 60px;
+  width: 100%;
+  border-radius: 12px;
+  background: red;
+  transition: all 0.4s ease;
+}
+#description:checked ~ .list .slider {
+  top: 0;
+}
+#about:checked ~ .list .slider {
+  top: 60px;
+}
+#contact:checked ~ .list .slider {
+  top: 120px;
+}
+.content .text-content {
+  width: 80%;
+  height: 100%;
+}
+.content .text {
+  display: none;
+}
+.content .text .title {
+  font-size: 25px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+.content .text p {
+  text-align: justify;
+}
+.content .text-content .description {
+  display: block;
+}
+#descrption:checked ~ .text-content .description,
+#about:checked ~ .text-content .about,
+#contact:checked ~ .text-content .contact {
+  display: block;
+}
+#about:checked ~ .text-content .description,
+#contact:checked ~ .text-content .description {
+  display: none;
+}
+.content input {
+  display: none;
+}
 #trainers {
   margin-top: 5%;
 }
-.row {
-  display: flex;
 
-  flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
-}
 .section-bg {
   background-position: center center;
   background-repeat: no-repeat;
@@ -26,7 +123,7 @@
 }
 
 .section-bg > form,
-.section-bg .container {
+.section-bg .container1 {
   position: relative;
   z-index: 2;
 }
@@ -88,17 +185,17 @@ p {
   transition: all 0.3s;
 }
 .section-bg > form,
-.section-bg .container {
+.section-bg .container1 {
   position: relative;
   z-index: 2;
 }
 .container {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 5%;
+  padding-left: 5%;
   margin-right: auto;
   margin-left: auto;
-  max-width: 1140px;
+  max-width: 90%;
 }
 html,
 body {
@@ -106,9 +203,6 @@ body {
   font-weight: 400;
   background-color: #fff;
   font-size: 16px;
-  -ms-text-size-adjust: 100%;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 .col-lg-4 {
   flex: 0 0 33.333333%;
@@ -145,7 +239,6 @@ a {
 
 .col-lg-8,
 .col-lg-12 {
-  -ms-flex: 0 0 66.666667%;
   flex: 0 0 66.666667%;
   max-width: 66.666667%;
 
@@ -330,6 +423,7 @@ label {
 }
 #tabs ul .ui-tabs-active a {
   color: #e02817;
+  display: block;
 }
 #tabs ul .ui-tabs-active span {
   color: #1e1e1e;
@@ -358,3 +452,32 @@ label {
   color: #7a7a7a;
   margin-bottom: 28px;
 }
+.row {
+  display: flex;
+
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+/*
+  .tabs-content article {
+    display: none;
+  }
+  .tabs-content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .tabs-content .tab {
+    display: none;
+    width: 100%;
+    padding: 20px;
+    background: #fff;
+    order: 1;
+  }
+  .tabs-content a.active + label + .tab {
+    display: block;
+  }
+  
+  .tabs-content a.active + label {
+    background: #fff;
+  }*/
